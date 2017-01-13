@@ -1,0 +1,22 @@
+{
+  "name": "lol-extras",
+  "version": "0.6.0",
+  "description": "A usefull tool for league of legend client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . build --platform=win32 --arch=x64 --ignore=node_modules",
+    "pack": "asar pack build-win32-x64/resources/app build-win32-x64/resources/app.asar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Zeeshan Abid",
+  "license": "ISC",
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron": "^1.4.14",
+    "electron-packager": "^8.5.0"
+  }
+}

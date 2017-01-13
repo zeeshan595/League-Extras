@@ -1,0 +1,12 @@
+.settings{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.settings input{
+    display: block;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

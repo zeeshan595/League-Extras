@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- CSS -->
+    <title>League Of Legend Extras</title>
+    <link rel='stylesheet'' type='text/css'' href='css/window_manager.css'>
+    <link rel='stylesheet'' type='text/css'' href='css/settings.css'>
+    <link rel='stylesheet'' type='text/css'' href='css/home.css'>
+    <link rel='stylesheet'' type='text/css'' href='css/item_sets.css'>
+</head>
+<body>
+    <div class='dragable'></div>
+
+    <div class='window_manager'>
+        <div class='window_manager_button' id='minimize_app'>v</div>
+        <div class='window_manager_button' id='close_app'>x</div>
+    </div>
+
+    <div class='menu_bar'>
+        <div class='menu_bar_item' selected href='home.html'>HOME</div>
+        <div class='menu_bar_item' href='item_sets.html'>ITEM SETS</div>
+        <div class='menu_bar_item' href='replays.html'>REPLAYS</div>
+        <div class='menu_bar_item' href='stats.html'>RANKED STATS</div>
+        <div class='menu_bar_item' href='settings.html'>SETTINGS</div>
+    </div>
+
+    <div class='content'>
+        <!-- CONTENT WILL BE LOADED HERE FROM JS -->
+    </div>
+
+    <!-- JS -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/window_manager.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/item_sets.js"></script>
+    <script src="js/home.js"></script>
+    <script>if (window.module) module = window.module;</script>
+</body>
+</html>

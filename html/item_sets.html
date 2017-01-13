@@ -1,0 +1,87 @@
+<div class="item_sets">
+    <div class='loading'>
+        <div class="loader"></div>
+        <div class="loading_data">Something went wrong...</div>
+    </div>
+
+    <div class="item_sets_content" style="display:none;opacity: 0;">
+        <div class="edit_button"></div>
+        <div class='dropdown' style="margin-top: 10px; display: inline-block;">
+            <div class='selection'>1</div>
+            <div class='options'>
+            </div>
+        </div>
+        <input type="text" class="edit_text" />
+
+        <div class="tabs">
+            <span selected href="maps_tab">Maps</span>
+            <span href="champions_tab">Champions</span>
+            <span href="items_tab">Items</span>
+        </div>
+
+        <div class="items_tab">
+            <input class="search" type="text" placeholder="Search..." />
+            <div class="items_list_filter">
+                    <span>Starting Items</span>
+                    <label><input type="checkbox" value="Jungle"> Jungle</label>
+                    <label><input type="checkbox" value="Lane"> Lane</label>
+
+                    <span>Tools</span>
+                    <label><input type="checkbox" value="Consumable"> Consumable</label>
+                    <label><input type="checkbox" value="GoldPer"> Gold Income</label>
+                    <label><input type="checkbox" value="Vision"> Vision & Trinkets</label>
+
+                    <span>Defense</span>
+                    <label><input type="checkbox" value="Armor"> Armor</label>
+                    <label><input type="checkbox" value="Health"> Health</label>
+                    <label><input type="checkbox" value="HealthRegen"> Health Regen</label>
+                    <label><input type="checkbox" value="SpellBlock"> Magic Resist</label>
+
+                    <span>Attack</span>
+                    <label><input type="checkbox" value="OnHit"> Attack Speed</label>
+                    <label><input type="checkbox" value="CriticalStrike"> Critical Strike</label>
+                    <label><input type="checkbox" value="Damage"> Damage</label>
+                    <label><input type="checkbox" value="LifeSteal"> Life Steal</label>
+
+                    <span>Magic</span>
+                    <label><input type="checkbox" value="CooldownReduction"> Cooldown Reduction</label>
+                    <label><input type="checkbox" value="Mana"> Mana</label>
+                    <label><input type="checkbox" value="ManaRegen"> Mana Regen</label>
+                    <label><input type="checkbox" value="SpellDamage"> Ability Power</label>
+
+                    <span>Movment Speed</span>
+                    <label><input type="checkbox" value="Boots"> Boots</label>
+                    <label><input type="checkbox" value="NonbootsMovement"> Other</label>
+
+            </div>
+            <div class="items_list">
+            </div>
+            <div class="blocks_list">
+                <div class="add_block">+ Add A Block</div>
+            </div>
+        </div>
+        <div class="champions_tab">
+            <div class="category_bar">
+                <div class="category" id="Fighter" style="background: url('images/fighter.png'); background-size: 100%;background-repeat: no-repeat;"></div>
+                <div class="category" id="Tank" style="background: url('images/tank.png'); background-size: 100%;background-repeat: no-repeat;"></div>
+                <div class="category" id="Mage" style="background: url('images/mage.png'); background-size: 100%;background-repeat: no-repeat;"></div>
+                <div class="category" id="Assassin" style="background: url('images/assassin.png'); background-size: 100%;background-repeat: no-repeat;"></div>
+                <div class="category" id="Support" style="background: url('images/support.png'); background-size: 100%;background-repeat: no-repeat;"></div>
+                <div class="category" id="Marksman" style="background: url('images/marksman.png'); background-size: 100%;background-repeat: no-repeat;"></div>
+                <input class="search" type="text" placeholder="Search..." />
+            </div>
+            <div class="champions_list">
+            </div>
+        </div>
+        <div class="maps_tab">
+            <div class="maps" id="10" style="background-image: url('http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map10.png');"></div>
+            <div class="maps" id="11" style="background-image: url('http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png');"></div>
+            <div class="maps" id="12" style="background-image: url('http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map12.png');"></div>
+        </div>
+
+        <div id='info_box'></div>
+        <div id='add_new_button'></div>
+        <div id='delete_button'></div>
+        <div id='save_button' class='save_button_disabled'>Save</div>
+    </div>
+<div>
