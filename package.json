@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . build --platform=win32 --arch=x64 --ignore=node_modules",
+    "build_linux": "electron-packager . build --platform=linux --arch=x64 --ignore=node_modules",
     "pack": "asar pack build-win32-x64/resources/app build-win32-x64/resources/app.asar"
   },
   "repository": {
