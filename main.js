@@ -24,7 +24,7 @@ function CreateWindow(){
     }));
 
     //Setup development tools
-    //main_window.webContents.openDevTools();
+    main_window.webContents.openDevTools();
 
     //When 'main_window' is closed set it to null
     main_window.on('closed', function(){
